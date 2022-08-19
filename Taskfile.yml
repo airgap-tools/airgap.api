@@ -14,7 +14,7 @@ tasks:
     swagger.gen:
         desc: Generate Go code
         cmds:
-        - GOFLAGS=-mod=mod go generate github.com/airgap_tools/tools.api/internal github.com/airgap_tools/tools.api/pkg/swagger
+        - GOFLAGS=-mod=mod go generate github.com/airgap-tools/tools.api/internal github.com/airgap-tools/tools.api/pkg/swagger
 
     swagger.validate:
         desc: Validate swagger
